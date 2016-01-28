@@ -15,10 +15,21 @@ public class Practice {
         int F0 = 0, F1 = 1, Fn = 0;
         for (int i = 0; i < 10; i++) {
             Fn = F0 + F1;
-            //System.out.println(Fn);
+            // System.out.println(Fn);
             F0 = F1;
             F1 = Fn;
         }
         return Fn;
+    }
+
+    public static int validElementNum() {
+        int[] myList = { 1, 2, 3, 4, -1 };
+        int i = 0;
+        while (true) {
+            if (myList[i] == -1)
+                break;
+            i++;
+        }
+        return i;
     }
 }
