@@ -22,7 +22,7 @@ public class Practice {
         return Fn;
     }
 
-    public static int validElementNum() {
+    public static int ValidElementNum() {
         int[] myList = { 1, 2, 3, 4, -1 };
         int i = 0;
         while (true) {

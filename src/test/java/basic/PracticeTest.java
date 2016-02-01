@@ -18,7 +18,7 @@ public class PracticeTest {
 
     @Test
     public void testValidElementNum() {
-        assertEquals(4, Practice.validElementNum());
+        assertEquals(4, Practice.ValidElementNum());
     }
 
 }
