@@ -21,4 +21,9 @@ public class PracticeTest {
         assertEquals(4, Practice.ValidElementNum());
     }
 
+    @Test
+    public void testMaxValue() {
+        assertEquals(4, Practice.MaxValue());
+    }
+
 }

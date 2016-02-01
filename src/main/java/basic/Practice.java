@@ -32,4 +32,15 @@ public class Practice {
         }
         return i;
     }
+
+    public static int MaxValue() {
+        int max = -1;
+        int[] myList = { 1, 2, 3, 4 };
+        for (int i = 0; i < myList.length; i++) {
+            if (myList[i] > max) {
+                max = myList[i];
+            }
+        }
+        return max;
+    }
 }
